@@ -1,0 +1,18 @@
+---------------------------설치방법----------------------------------
+CMD 킴
+
+conda create -n openin python=3.8
+
+conda activate openin
+
+conda install -c nvidia/label/cuda-11.3.1 cuda-toolkit
+
+conda install -c anaconda cudnn
+
+pip install -r requirements.txt
+
+
+--------------------------실행 --------------------------------
+
+python test.py
+

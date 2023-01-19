@@ -1,0 +1,5 @@
+how to training :  python train.py --img 640 --batch 16 --data mask_model/data.yaml --weights yolov5s.pt
+
+test experiment : python detect_custom.py --source 0 --weights best.pt --conf 0.25
+
+rtsp experiment : python detect_custom.py --source rtsp://admin:open1004@192.168.254.11 --weights best.pt --conf 0.25
