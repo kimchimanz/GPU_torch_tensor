@@ -1,0 +1,23 @@
+---------------------------설치방법----------------------------------
+CMD 킴
+
+conda create -n [name] python=3.8
+
+conda activate [name]
+
+conda install -c nvidia/label/cuda-11.3.1 cuda-toolkit
+
+conda install -c anaconda cudnn
+
+pip install tensorflow-gpu==2.2.0
+
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+
+
+
+
+
+
+
